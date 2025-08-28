@@ -292,19 +292,91 @@ st.markdown("""
         margin: 4rem 0;
     }
     
-    /* Responsive */
+    /* Responsive - Mobile Optimized */
     @media (max-width: 768px) {
         .color-grid {
-            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-            gap: 2rem;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 3rem;
         }
         
         .brand-title {
+            font-size: 4rem !important;
+            margin-bottom: 2rem !important;
+        }
+        
+        .brand-subtitle {
+            font-size: 1.4rem !important;
+            margin-bottom: 3rem !important;
+        }
+        
+        .section-header {
             font-size: 2rem !important;
+            margin: 3rem 0 2rem 0 !important;
+        }
+        
+        .color-swatch {
+            width: 160px !important;
+            height: 160px !important;
+            margin: 0 auto 2rem auto !important;
+        }
+        
+        .color-name {
+            font-size: 1.6rem !important;
+            margin-bottom: 1rem !important;
+        }
+        
+        .color-values {
+            font-size: 1.2rem !important;
+            line-height: 1.8 !important;
+        }
+        
+        .tints-strip {
+            margin: 1.5rem 0 !important;
+        }
+        
+        .tint-swatch {
+            width: 80px !important;
+            height: 300px !important;
+        }
+        
+        .tint-label {
+            font-size: 1rem !important;
+            bottom: 12px !important;
+        }
+        
+        .harmony-mini {
+            width: 70px !important;
+            height: 70px !important;
+        }
+        
+        .harmony-hex {
+            font-size: 1rem !important;
+        }
+        
+        .harmony-title {
+            font-size: 1.4rem !important;
+            margin-bottom: 1.5rem !important;
         }
         
         .main .block-container {
-            padding: 1rem !important;
+            padding: 2rem 1rem !important;
+        }
+        
+        /* Make buttons bigger on mobile */
+        .stButton > button {
+            font-size: 1.2rem !important;
+            padding: 1rem 2rem !important;
+            min-height: 3rem !important;
+        }
+        
+        /* Bigger file uploader on mobile */
+        .stFileUploader {
+            font-size: 1.1rem !important;
+        }
+        
+        /* Bigger slider on mobile */
+        .stSlider label {
+            font-size: 1.3rem !important;
         }
     }
     

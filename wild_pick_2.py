@@ -301,7 +301,8 @@ st.markdown("""
         
         .brand-title {
             font-size: 3rem !important;
-            margin-bottom: 2rem !important;
+            margin-bottom: 1rem !important;
+            margin-top: 0.5rem !important;
             white-space: nowrap !important;
         }
         
@@ -361,7 +362,7 @@ st.markdown("""
         }
         
         .main .block-container {
-            padding: 2rem 1rem !important;
+            padding: 0.5rem 1rem 2rem 1rem !important;
         }
         
         /* Make buttons bigger on mobile */

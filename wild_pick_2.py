@@ -643,7 +643,7 @@ st.markdown('<p class="brand-subtitle">Your Color Palette Explorer</p>', unsafe_
 
 # Upload section (no title)
 uploaded_file = st.file_uploader(
-    "📸 Upload/Browse Images",
+    "Upload/Browse Images",
     type=['png', 'jpg', 'jpeg', 'webp'],
     help="Drag & drop an image here or click to browse your files. Supports PNG, JPG, JPEG, WEBP formats."
 )

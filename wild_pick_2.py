@@ -300,13 +300,15 @@ st.markdown("""
         }
         
         .brand-title {
-            font-size: 4rem !important;
+            font-size: 2.5rem !important;
             margin-bottom: 2rem !important;
+            white-space: nowrap !important;
         }
         
         .brand-subtitle {
-            font-size: 1.4rem !important;
+            font-size: 1.1rem !important;
             margin-bottom: 3rem !important;
+            margin-top: -20px !important;
         }
         
         .section-header {

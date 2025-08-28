@@ -300,7 +300,7 @@ st.markdown("""
         }
         
         .brand-title {
-            font-size: 2.5rem !important;
+            font-size: 1.2rem !important;
             margin-bottom: 2rem !important;
             white-space: nowrap !important;
         }

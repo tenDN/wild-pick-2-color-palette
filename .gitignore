@@ -1,0 +1,35 @@
+# Wild Pick 2.0 - Git Ignore File
+
+# Virtual Environment
+venv/
+env/
+.env
+
+# Python Cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Temporary files
+*.tmp
+*.temp
+.DS_Store
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# Streamlit cache
+.streamlit/
+
+# Output files
+*.jpg
+*.png
+*.pdf
+salida.out
+
+# Zip files
+*.zip

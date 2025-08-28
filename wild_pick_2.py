@@ -377,6 +377,14 @@ st.markdown("""
             font-size: 1.1rem !important;
         }
         
+        .stFileUploader label {
+            font-size: 1.3rem !important;
+        }
+        
+        .stFileUploader > div {
+            padding: 3rem 1rem !important;
+        }
+        
         /* Bigger slider on mobile */
         .stSlider label {
             font-size: 1.3rem !important;
@@ -412,8 +420,23 @@ st.markdown("""
     }
     
     .stFileUploader > div {
-        border: none;
-        background: transparent;
+        border: 2px dashed #007acc !important;
+        background: #f8fafe !important;
+        border-radius: 12px !important;
+        padding: 2rem !important;
+        text-align: center !important;
+        transition: all 0.3s ease !important;
+    }
+    
+    .stFileUploader > div:hover {
+        border-color: #0066aa !important;
+        background: #f0f7ff !important;
+    }
+    
+    .stFileUploader label {
+        font-weight: 500 !important;
+        color: #007acc !important;
+        font-size: 1.1rem !important;
     }
     
     .stFileUploader button {
@@ -620,9 +643,9 @@ st.markdown('<p class="brand-subtitle">Your Color Palette Explorer</p>', unsafe_
 
 # Upload section (no title)
 uploaded_file = st.file_uploader(
-    "Upload an image to extract its color palette",
+    "📸 Upload/Browse for an Image",
     type=['png', 'jpg', 'jpeg', 'webp'],
-    help="Upload an image to extract its color palette"
+    help="Drag & drop an image here or click to browse your files. Supports PNG, JPG, JPEG, WEBP formats."
 )
 
 if uploaded_file is not None:
